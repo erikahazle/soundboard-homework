@@ -11,8 +11,8 @@
 }
 
 img {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
 }
 
 ul {
@@ -26,13 +26,38 @@ li {
 }
 
 #beer {
-  width: 120px;
+  width: 80px;
 }
 
 #cola {
-  width: 120px;
+  width: 80px;
 }
 
 #candy {
-  width: 160px;
+  width: 120px;
+}
+
+#ham {
+  height: 120px;
+  width: 140px;
+}
+
+#cupcake {
+  width: 140px;
+}
+
+#checkout {
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  margin: 10px 0 40px 0;
+  width: 200px;
+  height: 55px;
+  border-radius: 4px;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+  font-size: 28px;
+  background-color: rgb(43, 99, 196);
 }

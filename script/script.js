@@ -17,6 +17,18 @@ $(document).ready(function() {
   $('#chocolate').on('click', function() {
    soundManager.play('chocolate');
   });
+  $('#chicken').on('click', function() {
+   soundManager.play('chicken');
+  });
+  $('#ham').on('click', function() {
+   soundManager.play('ham');
+  });
+  $('#cupcake').on('click', function() {
+   soundManager.play('cupcake');
+  });
+  $('button').on('click', function() {
+   soundManager.play('checkout');
+  });
 })
 
 /***********************
@@ -52,6 +64,21 @@ soundManager.onready(function() {
       id:'chocolate', 
       url:'http://www.springfieldfiles.com/sounds/mmmm/chocola.mp3'
     }); 
- 
+    soundManager.createSound({
+      id:'chicken', 
+      url:'http://www.springfieldfiles.com/sounds/mmmm/chicken.mp3'
+    }); 
+    soundManager.createSound({
+      id:'ham', 
+      url:'http://www.springfieldfiles.com/sounds/mmmm/ham.mp3'
+    }); 
+    soundManager.createSound({
+      id:'cupcake', 
+      url:'http://www.springfieldfiles.com/sounds/mmmm/cupcakes.mp3'
+    }); 
+    soundManager.createSound({
+      id:'checkout', 
+      url:'http://www.richmolnar.com/Sounds/Apu%20-%20Please%20come%20again.wav'
+    }); 
   }; 
 });
