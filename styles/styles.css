@@ -1,0 +1,25 @@
+.wrapper {
+  background-color: rgb(252, 229, 27);
+}
+
+#logo {
+  display: block;
+  margin: 5px auto;
+  padding-top: 10px;
+  height: 120px;
+  width: 665px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
