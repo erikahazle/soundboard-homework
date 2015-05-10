@@ -22,4 +22,17 @@ ul {
 li {
   list-style: none;
   display: inline-block;
+  padding: 20px;
+}
+
+#beer {
+  width: 120px;
+}
+
+#cola {
+  width: 120px;
+}
+
+#candy {
+  width: 160px;
 }

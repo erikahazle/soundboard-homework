@@ -8,6 +8,15 @@ $(document).ready(function() {
   $('#doughnut').on('click', function() {
    soundManager.play('doughnut');
   });
+  $('#cola').on('click', function() {
+   soundManager.play('cola');
+  });
+  $('#candy').on('click', function() {
+   soundManager.play('candy');
+  });
+  $('#chocolate').on('click', function() {
+   soundManager.play('chocolate');
+  });
 })
 
 /***********************
@@ -30,6 +39,19 @@ soundManager.onready(function() {
     soundManager.createSound({
       id:'doughnut', 
       url:'http://www.springfieldfiles.com/sounds/mmmm/forbidd.mp3'
+    }); 
+    soundManager.createSound({
+      id:'cola', 
+      url:'http://www.springfieldfiles.com/sounds/mmmm/cola.mp3'
     });  
+    soundManager.createSound({
+      id:'candy', 
+      url:'http://www.springfieldfiles.com/sounds/mmmm/candy.mp3'
+    });  
+    soundManager.createSound({
+      id:'chocolate', 
+      url:'http://www.springfieldfiles.com/sounds/mmmm/chocola.mp3'
+    }); 
+ 
   }; 
 });
