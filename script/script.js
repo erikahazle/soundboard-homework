@@ -5,6 +5,9 @@ $(document).ready(function() {
   $('#beer').on('click', function() {
    soundManager.play('beer');
   });
+  $('#doughnut').on('click', function() {
+   soundManager.play('doughnut');
+  });
 })
 
 /***********************
@@ -23,6 +26,10 @@ soundManager.onready(function() {
     soundManager.createSound({
       id:'beer', 
       url:'http://www.springfieldfiles.com/sounds/mmmm/beer2.mp3'
-    });    
+    });
+    soundManager.createSound({
+      id:'doughnut', 
+      url:'http://www.springfieldfiles.com/sounds/mmmm/forbidd.mp3'
+    });  
   }; 
 });
