@@ -1,31 +1,10 @@
 $(document).ready(function() {
-  $('#burger').on('click', function() {
-   soundManager.play('burger');
-  });
-  $('#beer').on('click', function() {
-   soundManager.play('beer');
-  });
-  $('#doughnut').on('click', function() {
-   soundManager.play('doughnut');
-  });
-  $('#cola').on('click', function() {
-   soundManager.play('cola');
-  });
-  $('#candy').on('click', function() {
-   soundManager.play('candy');
-  });
-  $('#chocolate').on('click', function() {
-   soundManager.play('chocolate');
-  });
-  $('#chicken').on('click', function() {
-   soundManager.play('chicken');
-  });
-  $('#ham').on('click', function() {
-   soundManager.play('ham');
-  });
-  $('#cupcake').on('click', function() {
-   soundManager.play('cupcake');
-  });
+
+  $('img').on('click', function() {
+    var id = $(this).attr('id');
+    soundManager.play(id);
+  })
+
   $('button').on('click', function() {
    soundManager.play('checkout');
   });
